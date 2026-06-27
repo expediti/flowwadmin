@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
-import { Users, Mail, RefreshCw, Layers } from "lucide-react";
+import { Users, Mail, RefreshCw } from "lucide-react";
 
 // Initializing the build keys securely from Cloudflare environmental compilation targets
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || "";
